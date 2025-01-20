@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/* font-family: "Quicksand", serif; */
+
+/* first section */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family:"Quicksand", serif;
+}
+hr{
+    display: none;
+    color: rgb(254, 163, 1);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 186px; */
+    margin: 10px auto;
+    /* border: 1px solid tomato; */
+    padding: 20px 0px;
+}
+nav, ul{
+    display: flex;
+    gap: 32px;
+    
+}
+nav, ul, li, a{
+    text-decoration: none;
+}
+nav, ul, li{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: left;
+}
+/* color section */
+#home{
+    color: rgb(254, 163, 1);
+}
+#about{
+    color: rgb(1, 172, 253);
+}
+#faci{
+    color: rgb(5, 212, 223);
+}
+#admi{
+    color: rgb(93, 88, 239);
+}
+
+.menu-icon i{
+    position: absolute;
+    width: 22.5px;
+    height: 15px;
+
+}
+.menu-icon{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+#schl{
+    color: rgb(17, 17, 17);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 5px;
+}
+.first-btn{
+   color: rgb(255, 255, 255);
+   font-size: 1.15rem;
+   font-weight: 600;
+   padding: 10px 30px;
+   background-color: rgb(254, 163, 1);
+   border-radius: 10px;
+   border: none;
+   margin-right: 5px;
+}

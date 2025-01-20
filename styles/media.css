@@ -1,0 +1,23 @@
+@media screen and (max-width:430px){
+    .nav-ul, .first-btn{
+        display: none;
+    }
+    
+    .menu-icon{
+        display: block;
+    }
+    #schl{
+        display: none;
+    }
+    /* hr{
+        display: block;
+        margin-top: -20px;
+    } */
+    nav{
+        box-sizing: border-box;
+        border: 0.5px solid rgb(254, 163, 1);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+}
