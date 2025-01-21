@@ -20,4 +20,10 @@
         border-left: none;
         border-right: none;
     }
+    .banner-head{
+        display: flex;
+        flex-direction: column-reverse;
+       
+    }
+   
 }
