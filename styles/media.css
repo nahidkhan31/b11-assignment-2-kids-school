@@ -1,4 +1,4 @@
-@media screen and (max-width:430px){
+@media screen and (max-width:576px){
     .nav-ul, .first-btn{
         display: none;
     }
@@ -39,6 +39,12 @@
     }
     .kids--box1{
         display: none;
+    }
+    #card-4{
+        display: block;
+    }
+    #card-3{
+        display: block;
     }
    
 }

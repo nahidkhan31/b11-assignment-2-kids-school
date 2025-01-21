@@ -327,3 +327,9 @@ main section{
     align-items: center;
     text-align: center;
 }
+#card-4{
+    display: none;
+}
+#card-3{
+    display: none;
+}
