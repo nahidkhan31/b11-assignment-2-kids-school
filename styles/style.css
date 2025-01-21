@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 /* font-family: "Quicksand", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Raleway", serif; */
 
 /* first section */
 *{
@@ -210,10 +212,118 @@ main section{
     font-weight: 900;
     text-align: center;
     background-color: rgb(255, 163, 1);
-    border-radius: 50px;
-    width: 100px;
-    height: 100px;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
     margin-top: 100px;
     margin-bottom: 100px;
     border: none;
+}
+
+/* Our Story */
+.kids-section{
+    background-image: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.kids-section h1{
+    color: rgb(0, 0, 0);
+    font-size: 2.90rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+.kids-section-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.kids-section-box2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.kids--box1{
+    position: relative;
+    width: 540.27px;
+    height: 630.52px;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+.box1-main{
+    padding: 20px;
+    margin-top: -50px;
+}
+.box1-main h2{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 50px;
+
+}
+.box1-main p{
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.box1-btn{
+    background: rgb(60, 216, 232);
+    padding: 12px;
+    border-radius: 47.93px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Raleway", serif;
+}
+
+.section-box1{
+    position: relative;
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.section-btn{
+    color: white;
+    border-radius: 47.93px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Raleway", serif;
+    padding: 8px;
+    border: none;
+}
+.style-box{
+    margin-top: -42px;
+    padding: 20px;
+}
+.bg-color{
+    background-color: rgb(149, 178, 38);
+}
+.bg-color2{
+    background-color: rgb(93, 88, 248);
+}
+.style-box h4{
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 20px;
+}
+.kids-btn{
+    background-color: black;
+    color: white;
+    font-size: 1.10rem;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 12px;
+    align-items: center;
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.main-kids-btn{
+    align-items: center;
+    text-align: center;
 }
