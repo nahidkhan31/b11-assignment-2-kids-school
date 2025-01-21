@@ -90,6 +90,17 @@ nav, ul, li{
    border: none;
    margin-right: 5px;
 }
+.first-btn:hover{
+    color: rgb(255, 255, 255);
+    font-size: 1.15rem;
+    font-weight: 600;
+    padding: 10px 30px;
+    background-color: rgb(254, 163, 1);
+    border-radius: 10px;
+    border: none;
+    margin-right: 5px;
+    scale: 1.1;
+}
 
 /* Banner section */
 main section{
@@ -132,6 +143,16 @@ main section{
     font-weight: 700;
     border-radius: 10px;
     margin-top: 24px;
+}
+.banner-btn:hover{
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 24px;
+    scale: 1.1;
 }
 
 /* Box section */
@@ -219,6 +240,21 @@ main section{
     margin-bottom: 100px;
     border: none;
 }
+.box-btn:hover{
+    color: white;
+    font-family: Font Awesome 5 Free;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    background-color: rgb(255, 163, 1);
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: none;
+    scale: 1.1;
+}
 
 /* Our Story */
 .kids-section{
@@ -277,7 +313,6 @@ main section{
     font-weight: 500;
     font-family: "Raleway", serif;
 }
-
 .section-box1{
     position: relative;
     width: 290.69px;
@@ -321,6 +356,19 @@ main section{
     border: none;
     margin-top: 60px;
     margin-bottom: 30px;
+}
+.kids-btn:hover{
+    background-color: black;
+    color: white;
+    font-size: 1.10rem;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 12px;
+    align-items: center;
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    scale: 1.1;
 }
 
 .main-kids-btn{
