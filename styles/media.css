@@ -24,7 +24,19 @@
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
-       
+    }
+    .about{
+        line-break: auto;
+    }
+    .goo{
+        line-break: auto;
+    }
+    .home{
+        text-align: center;
+        align-items: center;
+    }
+    .small{
+        line-break: auto;
     }
     /* .banner{
         display: flex;
@@ -35,15 +47,16 @@
         gap: 18px; 
     } */
     /* .banner h2{
-        font-size: 2rem;
-        font-weight: 700;
-        text-align: center;
-    }
-    .banner p{
+        border: 2px solid tomato;
+        width: 500px;
+        height: 300px;
+        margin-left: 110px;
+    } */
+    /* .banner p{
         font-size: .80rem;
         font-weight: 500;
         text-align: center;
-    } */
+    } */ 
     .box{
         display: flex;
         flex-direction: column;
