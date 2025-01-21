@@ -59,4 +59,7 @@
         flex-direction: column;
         justify-content: space-between;
     }
+    body{
+        margin-left: 5px;
+    }
 }
