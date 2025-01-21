@@ -333,3 +333,67 @@ main section{
 #card-3{
     display: none;
 }
+/* footer section */
+.footer{
+    background: rgb(1, 172, 253);
+}
+.footer-img{
+    display: flex;
+    align-items: center;
+}
+.footer-img h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+    letter-spacing: 0px;
+}
+.footer-1{
+    margin-right: 150px;
+    /* border: 1px solid tomato; */
+} 
+#div1{
+    margin-left: -25px;
+}
+.footer1-p{
+    font-size: 1.20rem;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+}
+.nav-a{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: left;
+    color: white;
+}
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+.footer-h3{
+    font-size: 1.50rem;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 10px;
+}
+.footer-head{
+    display: flex;
+    flex-direction: row;
+    padding: 200px 150px;
+    justify-content: space-between;
+}
+#div-lnk{
+    width: 1500px;
+}

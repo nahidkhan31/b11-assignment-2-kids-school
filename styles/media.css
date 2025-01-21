@@ -51,6 +51,12 @@
         display: block;
     }
     .kids-section-box2{
-        margin: 0 auto;
+        margin-left: 5px;
+    }
+
+    .footer-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 }
