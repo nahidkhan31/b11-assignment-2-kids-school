@@ -9,7 +9,7 @@
     #schl{
         display: none;
     }
-    .marque{
+    .marquee{
         display: none;
     }
     /* hr{
@@ -31,10 +31,10 @@
         flex-direction: column-reverse;
         text-align: center;
     }
-    .about{
-        line-break: auto;
-    }
-    .goo{
+    /* .about{
+        line-break: normal;
+    } */
+    /* .goo{
         line-break: auto;
     }
     .home{
@@ -43,26 +43,40 @@
     }
     .small{
         line-break: auto;
-    }
-    /* .banner{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 auto;
-        text-align: center;
-        gap: 18px; 
     } */
+    
+    .banner{
+            width: 640px;
+            height: 331px;
+            margin-top: 250px;
+            margin-bottom: 20px;
+        } 
+    .banner-2{
+            width: 640px;
+            height: 331px;
+        } 
+    .banner h2{
+            width: 700px;
+            height: 331px;
+            text-align: center;
+            align-items: center;
+            padding: 0px 100px;
+         }
     /* .banner h2{
         border: 2px solid tomato;
         width: 500px;
         height: 300px;
         margin-left: 110px;
     } */
-    /* .banner p{
-        font-size: .80rem;
+    .banner p{
         font-weight: 500;
         text-align: center;
-    } */ 
+        margin-top: -20px;
+        border: 1px solid tomato;
+        width: 450px;
+        margin-left: 60px;
+        padding: 0px 0px 0px 10px;
+    } 
     .box{
         display: flex;
         flex-direction: column;
