@@ -9,10 +9,16 @@
     #schl{
         display: none;
     }
+    .marque{
+        display: none;
+    }
     /* hr{
         display: block;
         margin-top: -20px;
     } */
+     .box-btn{
+        display: none;
+     }
     nav{
         box-sizing: border-box;
         border: 0.5px solid rgb(254, 163, 1);
@@ -92,6 +98,7 @@
         padding: 2rem;
         gap: 2rem;
     }
+    
     /* body{
         margin-right: 15px;
     } */
